@@ -1,0 +1,98 @@
+body {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+  
+  .jumbotron {
+      border-radius: 0 !important;
+  }
+  
+  .first {
+      background-image: url("../img/assets/pl.jpg");
+      background-attachment: fixed;
+      color: white;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 610px;
+      position: relative;
+  }
+  
+  /* .first::after {
+      content: '';
+      width: 100%;
+      height: 75%;
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background-image: linear-gradient(to top, black,rgba(0,0,0,0));
+  } */
+  
+  .second {
+      background-attachment: fixed;
+      position: relative;
+      margin-top: -32px !important;
+      margin-left: -8px;
+      margin-right: -8px;
+  }
+  
+  .third {
+      background-attachment: fixed;
+      position: relative;
+      margin-top: -32px !important;
+      margin-left: -8px;
+      margin-right: -8px;
+  }
+  
+  .fourth{
+    background-attachment: fixed;
+    margin-top: -33px;
+    height: 620px;
+  }
+  
+  
+  .img-third-second {
+      float: left;
+      margin-top: 100px !important;
+  }
+  
+  .button {
+      border-radius: 4px;
+      border: none;
+      transition: all 0.5s;
+      cursor: pointer;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\2193';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  #map {
+      height: 400px;  /* The height is 400 pixels */
+      width: 100%;  /* The width is the width of the web page */
+  }
+  
+  .footer {
+      margin-bottom: -10px !important;
+  }
